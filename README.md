@@ -1,6 +1,6 @@
-# Nuotron 2 Weeks Web Design Survey
+# Nuotron 2 Weeks Web Design Application
 
-A tiny survey we built to have a feedback before starting our workshops series called `2 Weeks Web Design`.
+This application built to receive the participants applications for our workshops series called `2 Weeks Web Design`.
 
 
 ## Used Commands
