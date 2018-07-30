@@ -44,7 +44,7 @@
       ],
       "answer": {
         "type": "input",
-        "placeholder": "http://facebook.com/muhammadbader"
+        "placeholder": "facebook.com/muhammadbader"
       }
     }, {
       "name": "mobile",
