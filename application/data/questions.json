@@ -183,15 +183,6 @@
         ]
       }
     }, {
-      "name": "interests",
-      "question": [
-        "What are your interests?"
-      ],
-      "answer": {
-        "type": "input",
-        "placeholder": "Traveling, cooking, or reading?"
-      }
-    }, {
       "name": "skills",
       "question": [
         "What other skills do you have?"
@@ -199,6 +190,15 @@
       "answer": {
         "type": "textarea",
         "placeholder": "I have the ability to fly.."
+      }
+    }, {
+      "name": "interests",
+      "question": [
+        "What are your interests?"
+      ],
+      "answer": {
+        "type": "input",
+        "placeholder": "Traveling, cooking, or reading?"
       }
     }, {
       "name": "drink",
