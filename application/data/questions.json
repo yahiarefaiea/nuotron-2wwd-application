@@ -154,7 +154,7 @@
       ],
       "answer": {
         "type": "textarea",
-        "placeholder": "null.."
+        "placeholder": "Build interaction websites that the user will fall in love with.."
       }
     }, {
       "name": "greatestGoal",
@@ -163,7 +163,7 @@
       ],
       "answer": {
         "type": "textarea",
-        "placeholder": "Write about your strengths, achievements, or anything makes you feel comfortable.."
+        "placeholder": "Marry the love of my life.."
       }
     }, {
       "name": "belief",
@@ -207,7 +207,7 @@
       ],
       "answer": {
         "type": "input",
-        "placeholder": "Traveling, cooking, or reading?"
+        "placeholder": "Mirinda Green Apple.."
       }
     }
   ]
