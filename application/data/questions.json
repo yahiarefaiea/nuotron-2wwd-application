@@ -8,16 +8,178 @@
 
   "list": [
     {
-      "name": "planet",
+      "name": "fullName",
       "question": [
-        "Men Are from Mars, Women Are from",
-        "Venus. Where are you from?"
+        "What’s your full name in English?"
+      ],
+      "answer": {
+        "type": "input",
+        "placeholder": "Muhammad Bader"
+      }
+    }, {
+      "name": "gender",
+      "question": [
+        "What’s your gender?"
       ],
       "answer": {
         "type": "radio",
         "options": [
-          "Mars",
-          "Venus"
+          "Male",
+          "Female"
+        ]
+      }
+    }, {
+      "name": "email",
+      "question": [
+        "What’s your email address?"
+      ],
+      "answer": {
+        "type": "input",
+        "placeholder": "hello@muhammadbader.com"
+      }
+    }, {
+      "name": "facebook",
+      "question": [
+        "What’s your Facebook account URL?"
+      ],
+      "answer": {
+        "type": "input",
+        "placeholder": "http://facebook.com/muhammadbader"
+      }
+    }, {
+      "name": "mobile",
+      "question": [
+        "What’s your mobile number?"
+      ],
+      "answer": {
+        "type": "input",
+        "placeholder": "00963 12 3456 789"
+      }
+    }, {
+      "name": "address",
+      "question": [
+        "Where do you live?"
+      ],
+      "answer": {
+        "type": "input",
+        "placeholder": "Somewhere on the earth"
+      }
+    }, {
+      "name": "webExperience",
+      "question": [
+        "How much experience do you have in web",
+        "design / development?"
+      ],
+      "answer": {
+        "type": "range",
+        "options": [
+          "00/10",
+          "01/10",
+          "02/10",
+          "03/10",
+          "04/10",
+          "05/10",
+          "06/10",
+          "07/10",
+          "08/10",
+          "09/10",
+          "10/10"
+        ]
+      }
+    }, {
+      "name": "webExperienceSpecified",
+      "question": [
+        "Please specify your experience a bit further."
+      ],
+      "answer": {
+        "type": "textarea",
+        "placeholder": "NodeJS and Photoshop expert.."
+      }
+    }, {
+      "name": "english",
+      "question": [
+        "English is a requirement. What's your experience",
+        "in English?"
+      ],
+      "answer": {
+        "type": "range",
+        "options": [
+          "00/10",
+          "01/10",
+          "02/10",
+          "03/10",
+          "04/10",
+          "05/10",
+          "06/10",
+          "07/10",
+          "08/10",
+          "09/10",
+          "10/10"
+        ]
+      }
+    }, {
+      "name": "math",
+      "question": [
+        "What's your experience in math?"
+      ],
+      "answer": {
+        "type": "range",
+        "options": [
+          "00/10",
+          "01/10",
+          "02/10",
+          "03/10",
+          "04/10",
+          "05/10",
+          "06/10",
+          "07/10",
+          "08/10",
+          "09/10",
+          "10/10"
+        ]
+      }
+    }, {
+      "name": "bio",
+      "question": [
+        "Tell us a bit about yourself."
+      ],
+      "answer": {
+        "type": "textarea",
+        "placeholder": "Write about your strengths, achievements, or anything makes you feel comfortable.."
+      }
+    }, {
+      "name": "goal",
+      "question": [
+        "What's your goal of learning web design / development?"
+      ],
+      "answer": {
+        "type": "textarea",
+        "placeholder": "null.."
+      }
+    }, {
+      "name": "greatestGoal",
+      "question": [
+        "What's your greatest goal in life?"
+      ],
+      "answer": {
+        "type": "textarea",
+        "placeholder": "Write about your strengths, achievements, or anything makes you feel comfortable.."
+      }
+    }, {
+      "name": "belief",
+      "question": [
+        "Do you believe that your greatest goal",
+        "can be achieved by learning web",
+        "design / development?"
+      ],
+      "answer": {
+        "type": "range",
+        "options": [
+          "Definitely won't.",
+          "Probably won't..",
+          "I'm not sure..",
+          "Probably will..",
+          "Definitely will!"
         ]
       }
     }, {
@@ -30,100 +192,22 @@
         "placeholder": "Traveling, cooking, or reading?"
       }
     }, {
-      "name": "excited",
+      "name": "skills",
       "question": [
-        "How much excited are you to join our 2",
-        "weeks web design?"
-      ],
-      "answer": {
-        "type": "range",
-        "options": [
-          "Not interested",
-          "Not much",
-          "A bit",
-          "So much",
-          "Can't wait"
-        ]
-      }
-    }, {
-      "name": "reason",
-      "question": [
-        "Why did you choose to join our",
-        "workshops above all others?"
+        "What other skills do you have?"
       ],
       "answer": {
         "type": "textarea",
-        "placeholder": "Because we do things differently?"
+        "placeholder": "I have the ability to fly.."
       }
     }, {
-      "name": "expectation",
+      "name": "drink",
       "question": [
-        "What do you expect to learn in the",
-        "workshops?"
+        "What's your favorite cold drink?"
       ],
       "answer": {
-        "type": "textarea",
-        "placeholder": "How to build a paper rocket?"
-      }
-    }, {
-      "name": "theOneThing",
-      "question": [
-        "What is the one thing that you wish to",
-        "learn in the workshops?"
-      ],
-      "answer": {
-        "type": "textarea",
-        "placeholder": "How to build a space ship?"
-      }
-    }, {
-      "name": "plan",
-      "question": [
-        "Which plan do you think fits you the",
-        "most?"
-      ],
-      "answer": {
-        "type": "radio",
-        "options": [
-          "24, 000 s.p / 2 hours a day",
-          "32, 000 s.p / 4 hours a day",
-          "40, 000 s.p / 6 hours a day"
-        ]
-      }
-    }, {
-      "name": "timing",
-      "question": [
-        "Which timing do you think fits you the",
-        "most?"
-      ],
-      "answer": {
-        "type": "radio",
-        "options": [
-          "After 12 PM",
-          "After 2 PM",
-          "After 4 PM"
-        ]
-      }
-    }, {
-      "name": "location",
-      "question": [
-        "Do you prefer any institute or location to",
-        "launch our workshops in? The hall should",
-        "fit around 30 participants with their",
-        "laptops. Please specify with details."
-      ],
-      "answer": {
-        "type": "textarea",
-        "placeholder": "Florence Cathedral - Florence, Italy"
-      }
-    }, {
-      "name": "message",
-      "question": [
-        "Do you have any special message you",
-        "wish me to know about?"
-      ],
-      "answer": {
-        "type": "textarea",
-        "placeholder": "Huh?"
+        "type": "input",
+        "placeholder": "Traveling, cooking, or reading?"
       }
     }
   ]
