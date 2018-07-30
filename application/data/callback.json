@@ -2,8 +2,8 @@
   "wait": "Wait for a second",
   "success": [
     ["Join our two weeks", "web design in", "September ."],
-    ["Well, Thanks !", "We received your feedback ."],
-    ["Don't forget to share", "the survey with your friends !"]
+    ["Well, Thanks !", "We received your application ."],
+    ["Don't forget to share", "the application with your friends !"]
   ],
   "error": [
     ["whoops, something went wrong ..", "please try again later ."]
