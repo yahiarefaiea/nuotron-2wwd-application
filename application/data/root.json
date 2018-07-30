@@ -1,14 +1,14 @@
 {
   "lang": "en",
   "dir": "ltr",
-  "title": "Nuotron 2WWD Survey",
+  "title": "Nuotron 2WWD Application",
   "author": "Yahia Refaiea",
-  "description": "Nuotron 2 Weeks Web Design Survey",
+  "description": "Nuotron 2 Weeks Web Design Application",
 
   "reach": {
     "text": "Need help? Talk to a human",
     "url": "https://yahiarefaiea.com"
   },
 
-  "url": "https://2wwd.nuotron.co/survey/"
+  "url": "https://2wwd.nuotron.co/application/"
 }
