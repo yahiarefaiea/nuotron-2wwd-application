@@ -1,5 +1,5 @@
 {
-  "start": "Start",
+  "start": "Apply",
   "startHintSmall": "- or simply hit Enter -",
   "startHintLarge": "- better to use a larger screen -",
   "list": [
@@ -19,7 +19,7 @@
         "workshops in September .."
       ]
     }, {
-      "text": ["Hit the button to start the survey .."]
+      "text": ["Hit the button to apply to the application .."]
     }
   ]
 }
