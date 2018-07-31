@@ -36,3 +36,12 @@ questionsHeights= fullNameHeight, genderHeight, emailHeight, facebookHeight, mob
         opacity: 1
         transform: translateY(0)
         hasTransition: duration 0 step*6
+
+//  RANGE ELEMENTS
+.webExperience .range,
+.english .range,
+.math .range
+  ul li
+    for i in ((11 - 10)..(11 - 1))
+      &:nth-child({i})
+        {align}: (100%/(11 - 1))*(i - 1)
