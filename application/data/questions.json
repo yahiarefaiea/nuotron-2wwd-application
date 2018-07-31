@@ -67,8 +67,8 @@
     }, {
       "name": "webExperience",
       "question": [
-        "How much experience do you have in web",
-        "design / development?"
+        "How much experience do you have in",
+        "web design / development?"
       ],
       "answer": {
         "type": "range",
@@ -89,7 +89,8 @@
     }, {
       "name": "webExperienceSpecified",
       "question": [
-        "Please specify your experience a bit further."
+        "Please specify your experience a bit",
+        "further."
       ],
       "answer": {
         "type": "textarea",
@@ -98,8 +99,8 @@
     }, {
       "name": "english",
       "question": [
-        "English is a requirement. What's your experience",
-        "in English?"
+        "English is a requirement. What's your",
+        "experience in English?"
       ],
       "answer": {
         "type": "range",
@@ -150,7 +151,8 @@
     }, {
       "name": "goal",
       "question": [
-        "What's your goal of learning web design / development?"
+        "What's your goal of learning web",
+        "design / development?"
       ],
       "answer": {
         "type": "textarea",
