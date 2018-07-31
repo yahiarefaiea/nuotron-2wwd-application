@@ -62,7 +62,7 @@
       ],
       "answer": {
         "type": "input",
-        "placeholder": "Somewhere on the earth"
+        "placeholder": "Somewhere on the earth.."
       }
     }, {
       "name": "webExperience",
@@ -200,7 +200,7 @@
       ],
       "answer": {
         "type": "input",
-        "placeholder": "Traveling, cooking, or reading?"
+        "placeholder": "Traveling, cooking, and reading.."
       }
     }, {
       "name": "drink",
