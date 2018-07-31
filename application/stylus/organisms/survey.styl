@@ -29,7 +29,7 @@ numberHeight= baseline*1.5
 #currentQuestion
   z-index: -1
 .questions #navigation,
-.questions:not(.planet) #previous,
+.questions:not(.fullName) #previous,
 .questions #next
 .questions #currentQuestion
   z-index: auto
@@ -159,7 +159,7 @@ numberHeight= baseline*1.5
   #previous
     {align}: -4px
     {align-alt}: auto
-.questions:not(.planet) #previous,
+.questions:not(.fullName) #previous,
 .questions #next
   .ellipse
     opacity: 1
@@ -177,12 +177,12 @@ numberHeight= baseline*1.5
     background-color: transparent
     hasTransition()
 @media (min-width: gamma)
-  .questions:not(.planet) #previous > span,
-  .questions:not(.message) #next > span:not(.submit),
-  .questions.message #next > span.submit
+  .questions:not(.fullName) #previous > span,
+  .questions:not(.drink) #next > span:not(.submit),
+  .questions.drink #next > span.submit
     top: 0
     opacity: 1
-.questions:not(.planet) #previous
+.questions:not(.fullName) #previous
   .ellipse svg
     {align}: 0
   &:hover .ellipse
@@ -199,7 +199,7 @@ numberHeight= baseline*1.5
     svg
       {align-alt}: -(translate/4)
 @media (min-width: gamma)
-  .questions:not(.planet) #previous:hover .ellipse:before
+  .questions:not(.fullName) #previous:hover .ellipse:before
     {align}: 11px
   .questions #next:hover .ellipse:before
     {align-alt}: 11px
@@ -210,7 +210,7 @@ numberHeight= baseline*1.5
   width: (numberWidth/2)
   height: numberHeight
   border-radius: (numberHeight/2)
-  margin-{align}: -4px
+  margin-{align}: -3px
   line-height: numberHeight
   opacity: 0
   hasTransition()
@@ -218,7 +218,7 @@ numberHeight= baseline*1.5
   color: text-default
   ul
     makeAbsolute: 0 auto auto 50%
-    margin-{align-alt}: 4px
+    margin-{align-alt}: 3px
     li
       makeAbsolute: 0 auto auto 0
       text-align: align-alt
@@ -233,7 +233,7 @@ numberHeight= baseline*1.5
         cursor: auto
   span
     makeAbsolute: 0 50%
-    margin-{align}: -4px
+    margin-{align}: -3px
 .questions #currentQuestion
   width: numberWidth
   opacity: 1
